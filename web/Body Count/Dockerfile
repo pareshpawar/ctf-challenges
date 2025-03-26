@@ -20,7 +20,7 @@ RUN mkdir -p /ctf/avenged/sevenfold/
 RUN mkdir -p /ctf/led/zeppelin
 RUN mkdir -p /ctf/avenged/some/folder/name
 RUN mkdir -p /ctf/system/of/a/down
-RUN echo csictf{1nj3ct10n_15_p41nfu1} > /ctf/system/of/a/down/flag.txt
+RUN echo ctf7{1nj3ct10n_is_p41nfu1} > /ctf/system/of/a/down/flag.txt
 
 RUN chown -R root:ctf /ctf && \
   chmod -R 755 /ctf

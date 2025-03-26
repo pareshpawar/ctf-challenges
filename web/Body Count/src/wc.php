@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>wc as a service</title>
+    <title>word count as a service</title>
     <style>
         html,
         body {
@@ -20,7 +20,7 @@
     ini_set('max_execution_time', 5);
     if ($_COOKIE['password'] !== getenv('PASSWORD')) {
         setcookie('password', 'PASSWORD');
-        die('Sorry, only people from csivit are allowed to access this page.');
+        die('Sorry, only people from CTF7 are allowed to access this page.');
     }
     ?>
 
