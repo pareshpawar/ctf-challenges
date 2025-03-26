@@ -38,7 +38,7 @@ print("Find the flag.")
 sys.stdout.flush()
 
 def flag_function():
-    flag = "csictf{m1ch34l_sc0fi3ld_fr0m_pr1s0n_br34k}"
+    flag = "ctf7{pr1s0n_br34k_fr0m_th3_hic4th0n}"
 
 while 1:
     try:
